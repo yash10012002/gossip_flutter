@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "589003228951",
+    "project_id": "gossip-e7212",
+    "storage_bucket": "gossip-e7212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589003228951:android:c23918b494eaf4fa641952",
+        "android_client_info": {
+          "package_name": "com.example.gossip_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589003228951-4u5vhr2ak0rg0eqcpmoqpns5mhs70jgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gossip_flutter",
+            "certificate_hash": "e6d46035ca8e363c2310885d67e9f43b460f9d20"
+          }
+        },
+        {
+          "client_id": "589003228951-5jjgi438i704rmjgp4v67jmnc1tq2sen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTuM9kxOvl2UujQZaU1AJJ5WCArINrxkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589003228951-5jjgi438i704rmjgp4v67jmnc1tq2sen.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589003228951-of47t48hlib35ukqojiq68vicf9vkao9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gossipFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
