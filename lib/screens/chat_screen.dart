@@ -38,11 +38,13 @@ class _ChatScreenState extends State<ChatScreen> {
     return GestureDetector(
       onTap: () {
         FocusScope.of(context).unfocus();
+        if (_showEmoji) setState(() => _showEmoji = !_showEmoji);
       },
       // if emoji are shown & back button iss pressed then hide emojis
       // or else simple close current screen on back button click
       child: WillPopScope(
         onWillPop: () {
+          FocusScope.of(context).unfocus();
           if (_showEmoji) {
             setState(() {
               _showEmoji = !_showEmoji;
@@ -141,6 +143,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return SafeArea(
       child: InkWell(
           onTap: () {
+            FocusScope.of(context).unfocus();
             Navigator.push(
                 context,
                 MaterialPageRoute(

@@ -7,6 +7,7 @@ import 'package:flutter_notification_channel/flutter_notification_channel.dart';
 import 'package:flutter_notification_channel/notification_importance.dart';
 import 'package:gossip_flutter/api/apis.dart';
 import 'package:gossip_flutter/screens/auth/login_screen.dart';
+import 'package:gossip_flutter/screens/globle.dart';
 import 'package:gossip_flutter/screens/home_screen.dart';
 import 'firebase_options.dart';
 
@@ -65,6 +66,7 @@ class _MyAppState extends State<MyApp> {
                 fontSize: 20),
           )),
       home: APIs.auth.currentUser != null ? HomeScreen() : LoginScreen(),
+      navigatorKey: GlobalVariable.navigatorKey,
     );
   }
 }
